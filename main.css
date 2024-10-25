@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar img{
+    height: 32px;
+}
+
+header nav li a{
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+a.nav-link.active.custom-link{
+    color: #fff;
+    background-color: #2c2c2c;
+}
+
+a.nav-link.custom-link{
+    color: #2c2c2c;
+}
+
+button.navbar-toggler{
+    margin-bottom: 12px;
+}
+
+section{
+    height: 100vh;
+    padding-top: 70px;
+}
+
+header{
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+#carousel-exemplo {
+    width: 100%; 
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex; /* Flex para alinhar itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.carousel-inner img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura */
+    max-height: 100%; /* Garante que a imagem não exceda a altura */
+    object-fit: contain; /* Ajusta a imagem para caber dentro do contêiner */
+}
+
+.container > section{
+    padding-top: 20px;
+}
+
+#inicio h2,
+#cursos h2,
+#professores h2,
+#contato h2{
+    font-family: "Space Grotesk", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+#inicio p{
+    width: 500px;
+    letter-spacing: 1px;
+}
+
+#inicio{
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicio img{
+    height: 700px
+}
